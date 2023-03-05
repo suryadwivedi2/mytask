@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>max & min in an array</title>
+    <script>
+        let a = [];
+        for (let i = 0; i < 5; i++) {
+            let n = prompt("enter values:");
+            n = parseInt(n);
+            a.push(n);
+        }
+        console.log(a);
+        //------------------------------------------------------------------------------//
+        //MAXIMUM IN AN ARRRAY
+        let max=a[0];
+        for (let i = 0; i < a.length; i++) {
+            
+             if(max<a[i])
+             {
+                max=a[i];
+             }
+            }
+            console.log(max);
+            
+
+//-----------------------------------------------------------------------------------------------------//
+            //MINIMUN IN AN ARRAY
+
+
+        let min=a[0];
+        for (let i = 0; i < a.length; i++) {
+            
+             if(min>a[i])
+             {
+                min=a[i];
+             }
+            }
+        
+        console.log(min);
+        
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
